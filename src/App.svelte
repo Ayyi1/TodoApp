@@ -50,7 +50,7 @@
     <div class="empty-state">
       <svg class="checklist-icon"><use href="#checklist-icon"></use></svg>
       <h2 class="empty-state__title">Add your first todo</h2>
-      <p class="empty-state__description">What do you want to get done today?</p>
+      <p class="empty-state__description">What do you want to get done today? <a href="https://beji.cf">Home</a></p>
     </div>
     <form on:submit|preventDefault={addTodo}>
       <input class="js-todo-input" type="text" aria-label="Enter a new todo item" placeholder="E.g. Build a web app" bind:value={newTodo}>
