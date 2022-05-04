@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # To-Do-List
 
@@ -61,3 +62,6 @@ Check [Issues](https://github.com/tusharnankani/ToDoList/issues) for contributin
 
 * Tushar Nankani (tusharnankani, tusharnankani3@gmail.com)
   - [LinkedIn](https://www.linkedin.com/in/tusharnankani)
+=======
+# A simple todo app made with svelte
+>>>>>>> e59103be715b267c0977cc21fa6c952919b14e75
