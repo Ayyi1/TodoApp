@@ -383,3 +383,8 @@ form button {
     background-color: transparent;
     color: orange;
 }
+
+.centerme {
+    align: center;
+    text-align: center;
+}
