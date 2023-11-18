@@ -34,15 +34,9 @@ function addToDo(event) {
 
     // Create LI
     const newToDo = document.createElement('li');
-    const popup = Notification({
-          position: 'top-left',
-          duration: 3500
-        });
     if (toDoInput.value === '') {
-            popup.error({
-              title: 'Error',
-              message: 'You must write something!'
-});        } 
+            alert("You must write something!");
+        } 
     else {
         // newToDo.innerText = "hey";
         newToDo.innerText = toDoInput.value;
